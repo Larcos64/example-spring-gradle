@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 public class ExampleSpringGradleApplication {
 
-	@RequestMapping("/")
+	@RequestMapping("/helloworld")
 	@ResponseBody
 	String home() {
 		return "Hello World!";
